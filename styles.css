@@ -1,1 +1,32 @@
 /* your code */
+table{
+	border-collapse: collapse;
+	width:100%;
+	font-family:system-ui;
+	border:1px solid rgb(221,221,221);
+	border-radius:30px;
+
+}
+thead th{
+	text-transform:uppercase;
+}
+tbody td{
+	text-transform:capitalize;
+}
+table tr{
+	border:none;
+	text-align:left;
+	font-size:14px;
+}
+th,td{
+	padding:10px;
+	
+}
+.active{
+	background-color:rgb(33,90,142);
+	color:white;
+}
+tr:nth-child(even){
+	background-color:rgb(221,221,221);
+	color:white;
+}
